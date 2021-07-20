@@ -59,7 +59,7 @@ func getPost(id int) {
 		return
 	}
 
-	err = ioutil.WriteFile(STORAGE_PATH+strconv.Itoa(id), data, 0644)
+	err = ioutil.WriteFile(STORAGE_PATH+strconv.Itoa(id)+".txt", data, 0644)
 	if err != nil {
 		log.Println(err)
 		return
