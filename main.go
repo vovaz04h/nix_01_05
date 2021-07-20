@@ -19,7 +19,7 @@ type Post struct {
 }
 
 const (
-	POSTS_COUNT  = 1
+	POSTS_COUNT  = 100
 	BASE_URL     = "https://jsonplaceholder.typicode.com/posts/"
 	STORAGE_PATH = "./storage/posts/"
 )
